@@ -38,9 +38,9 @@ module.exports = (ctx) => {
         },
       },
       cssnano: ctx.env === 'production' || ctx.env === 'compat' ? {} : false,
-      'postcss-header': {
-        header,
-      },
+      // 'postcss-header': {
+      //   header,
+      // },
     },
   };
 };
